@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursal Digital Consalud </title>
+    <link rel="icon" href="img/icon.png" type="image/svg+xml">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Sección izquierda: Formulario de inicio de sesión -->
+        <main class="left-section">
+            <header class="logo">
+                <img src="https://clientes.consalud.cl/styleguide-spa/b5fc9c0419c32e6789bc.svg" alt="Consalud logo">
+            </header>
+            <section class="login-form">
+                <h2>Ingresa a tu <span class="highlight">Consalud</span></h2>
+                <p>¡Haz tus trámites más simples!</p>
+                <label for="rut">RUT</label>
+                <input type="text" id="rut" placeholder="12.345.678-9">
+                <label for="password">Clave</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="******">
+                    <i class="fas fa-eye toggle-password"></i>
+                </div>
+                <a href="#" class="forgot-password">¿Olvidaste tu clave?</a>
+                <button class="login-button">Ingresar</button>
+                <button class="fingerprint-button"> Ingresar con huella <img src="img/huella.png" alt="Fingerprint icon"> </button>
+            </section>
+            <footer class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <a href="#">Volver a <span class="highlight">Consalud.cl</span></a>
+            </footer>
+        </main>
+
+        <!-- Sección derecha: Información y servicios -->
+        <aside class="right-section">
+            <div class="cont-img">
+                <div class="rows-img">
+                    <div id="space1"></div>
+                    <img id="img-1" src="img/computador.png" alt="computador">
+                </div>
+                <div class="rows-img">
+                    <div class="cont-img2">
+                        <img id="img-2" src="img/telefono.png" alt="">
+                        <span>¡Consalud Mobile!</span>
+                    </div>
+                </div>
+                <div class="rows-img">
+                    <div id="space3"></div>
+                    <img id="img-3" src="img/persona.png" alt="persona">
+                </div>
+            </div>
+            <section class="info">
+                <h2>¡Bienvenido a tu Sucursal Digital!</h2>
+                <p><strong>Instala Consalud Mobile en tu teléfono</strong> y realiza tus trámites de forma simple, rápida y segura.</p>
+                <a href="#">¿Cómo instalar Consalud Mobile?</a>
+            </section>
+        </aside>
+    </div>
+</body>
+</html>
